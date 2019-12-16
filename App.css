@@ -1,0 +1,33 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text] {
+  width: 50%;
+  padding:5px; 
+  border:2px solid #ccc; 
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
